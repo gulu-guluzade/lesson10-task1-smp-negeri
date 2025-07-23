@@ -17,4 +17,90 @@
   text-decoration: none;
   list-style-type: none;
   font-family: OpenSans-Regular;
+  font-weight: 400;
+  font-size: 14px;
+  color: inherit;
+  line-height: 18px;
+
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE 10+ */
+  user-select: none; /* Standard */
+}
+
+/* ========== GENERAL STYLES FOR FILE INDEX.HTML ========== */
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* ========== HEADER ========== */
+header {
+  height: 528px;
+  background: url("../images/header-bg.png") center no-repeat;
+  background-size: cover;
+  color: #ffffff;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 17px 0 25px 0;
+  margin-bottom: 58px;
+}
+
+.header-nav-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+}
+
+.header-nav-link {
+  letter-spacing: 0.2px;
+  color: #cecdcd;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.header-nav-link:hover {
+  color: #ffffff;
+}
+
+.header-nav-link:hover::before {
+  content: "";
+  width: 16px;
+  height: 2px;
+  background-color: #ffffff;
+  border-radius: 4px;
+  position: absolute;
+  bottom: -8px;
+}
+
+.header-info-title {
+  text-transform: uppercase;
+  font-family: OpenSans-Bold;
+  letter-spacing: 0.4px;
+  opacity: 0.6;
+}
+
+.header-info-description {
+  max-width: 47%;
+  font-family: OpenSans-Bold;
+  font-size: 24px;
+  letter-spacing: 0.2px;
+  line-height: 40px;
+  margin: 24px 0 48px;
+}
+
+.btn-contact-us {
+  display: inline-block;
+  padding: 11px 33px;
+  background-color: #0193dc;
+  border-radius: 4px;
+  letter-spacing: 0.3px;
+  font-family: OpenSans-Bold;
 }
