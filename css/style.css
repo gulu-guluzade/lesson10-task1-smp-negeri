@@ -37,12 +37,14 @@
 
 /* ========== HEADER ========== */
 header {
-  height: 528px;
+  min-height: 528px;
   background: url("../images/header-bg.png") center no-repeat;
   background-size: cover;
   color: #ffffff;
+  padding-bottom: 25px;
 }
 
+/* ===== HEADER NAV ===== */
 .header-nav {
   display: flex;
   align-items: center;
@@ -80,6 +82,7 @@ header {
   bottom: -8px;
 }
 
+/* ===== HEADER INFO ===== */
 .header-info-title {
   text-transform: uppercase;
   font-family: OpenSans-Bold;
