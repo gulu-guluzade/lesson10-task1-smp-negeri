@@ -104,3 +104,92 @@ header {
   letter-spacing: 0.3px;
   font-family: OpenSans-Bold;
 }
+
+/* ========== FOOTER ========== */
+.footer-row {
+  padding: 64px 0 48px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  border-bottom: 1px solid #e6e6e7;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+/* ===== FOOTER INFO ===== */
+.footer-info {
+  width: 286px;
+}
+
+.footer-contacts-address {
+  margin: 16px 0 24px;
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  color: #0c101a;
+}
+
+.footer-contacts-mail {
+  font-family: OpenSans-Bold;
+}
+
+.footer-contacts-mail:first-child {
+  margin-bottom: 20px;
+}
+
+/* ===== FOOTER NAV ===== */
+.footer-nav {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 0 116px;
+}
+
+.footer-nav-column-title {
+  color: #0c101a;
+  font-family: OpenSans-Bold;
+  font-size: 16px;
+  letter-spacing: 0.2px;
+  margin-bottom: 32px;
+}
+
+.footer-nav-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px 0;
+}
+
+.footer-nav-link {
+  color: #373f41;
+  font-family: OpenSans-Bold;
+  letter-spacing: 0.2px;
+}
+
+/* ===== FOOTER MEDIA SOSIAL ===== */
+.footer-media-sosial-title {
+  color: #0c101a;
+  font-family: OpenSans-Bold;
+  font-size: 16px;
+  letter-spacing: 0.3px;
+  margin-bottom: 32px;
+}
+
+.footer-media-sosial-items {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0 16px;
+}
+
+/* ===== FOOTER BOTTOM ===== */
+.footer-bottom {
+  padding: 28px 0;
+}
+
+.footer-bottom-text {
+  font-size: 12px;
+  letter-spacing: 0.3px;
+  line-height: 24px;
+  color: #0c101a;
+}
